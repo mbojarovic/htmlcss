@@ -1,0 +1,332 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px;
+    background-color: #445162;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.main-product-wrapper {
+    margin: 0 0 0 0;
+}
+
+.product-name-title {
+    display: block;
+    margin: -13px 0 0 -4px;
+    font-family: Arial, sans-serif;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.product-name-list {
+    display: block;
+    list-style-type: none;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.product-name-list-item {
+    display: block;
+    margin: 40px 0 4px 37px;
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    line-height: 0;
+    font-weight: 400;
+}
+.product-name-list-item:before {
+    content: "\2714";
+    display: block;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: -34px;
+}
+
+.product-name-image {
+    display: block;
+    width: 469px;
+    height: 214px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.content {
+
+}
+
+.about-your-product {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 0 0 0 0;
+    box-sizing: border-box;
+}
+
+.about-your-product-wrapper {
+
+}
+
+.about-your-product-title {
+    display: block;
+    margin: -6px 0 0 0;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    box-sizing: border-box;
+}
+
+.about-your-product-info-first {
+    display: block;
+    width: 90%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin: 23px 0 0 0;
+}
+
+.about-your-product-info-second {
+    display: block;
+    width: 90%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin: 10px 0 0 0;
+}
+
+video {
+    background-color: #445161;
+}
+.dignity-product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.dignity-product-title {
+    width: 100%;
+    margin: -9px 0 0 -2px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    box-sizing: border-box;
+}
+
+.dignity-product-wrapper {
+    width: 50%;
+    box-sizing: border-box;
+}
+.dignity-product-item {
+    margin: 19px 0 0 -1px;
+    padding: 6px 0 0 41px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 35px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.dignity-product-item-list {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    outline: none;
+    position: relative;
+
+}
+
+.dignity-product-item-list::-webkit-details-marker {
+    display: none
+}
+.dignity-product-item-list:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px;
+    background-color: #445161;
+    color: #ffffff;
+    position: absolute;
+    top: 4px;
+    left: -40px;
+    box-sizing: border-box;
+}
+
+.screenshots {
+
+    padding: 50px;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.screenshots-title {
+    display: block;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: -8px 0 0 26px;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+}
+.screenshots-wrapper {
+    width: 50%;
+    margin: 0 0 0 0;
+
+}
+
+.screenshots-image {
+    display: block;
+    float: left;
+    margin: 30px 0 0 0;
+    width: 200px;
+    height: 150px;
+    background-color: #445161;
+}
+
+.screenshots-item {
+    width: 64%;
+    float: right;
+    margin: 17px 0 0 0;
+}
+
+
+.screenshots-item-title {
+    margin: 6px 0 0 2px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #445161;
+}
+
+.screenshots-item-text{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #333333;
+    margin: 8px 0 0 2px;
+}
+
+.screenshots-wrapper:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.reviews {
+    padding: 50px;
+    margin: 0 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+}
+
+.reviews-title {
+    display: block;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #445161;
+    margin: -10px 0 0 0;
+}
+
+.reviews-wrapper {
+    width: 50%;
+    margin: 0 0 0 0;
+
+}
+
+.reviews-image {
+    display: block;
+    float: left;
+    width: 75px;
+    height: 75px;
+    margin: 29px 0 0 0;
+    background-color: #445161;
+    border-radius: 50%;
+}
+
+.reviews-content {
+    width: 82%;
+    float: right;
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    padding: 12px;
+    text-align: justify;
+    margin: 25px 2px 1px 0;
+    position: relative;
+}
+.reviews-content:before {
+    content: "";
+    display: block;
+    border: 20px solid transparent;
+    border-right: 20px solid #ebebeb;
+    position: absolute;
+    left: -36px;
+    top: 26px;
+
+}
+
+.reviews-content-text {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #333333;
+    margin: 0 0 0 16px;
+}
+.reviews-author>a {
+    display: block;
+    margin: 6px 0 0 0;
+    text-decoration: none;
+}
+
