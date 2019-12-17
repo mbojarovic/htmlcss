@@ -302,6 +302,7 @@ video {
     text-align: justify;
     margin: 25px 2px 1px 0;
     position: relative;
+    border-radius: 10px;
 }
 .reviews-content:before {
     content: "";
