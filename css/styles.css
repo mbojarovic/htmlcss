@@ -441,7 +441,7 @@ video {
     box-sizing: border-box;
     border: 1px solid;
     background-color: #445162;
-    padding: 50px 50px 0 50px;
+    padding: 50px 50px 50px 50px;
 }
 
 .contacts:after {
@@ -607,9 +607,9 @@ input::placeholder, textarea::placeholder {
 
 .social-icons {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     box-sizing: border-box;
-    padding: 0 0 0 0;
+    padding: 0 45px 0 36px;
     margin: 0 0 0 0;
     width: 40%;
 }
@@ -619,7 +619,7 @@ input::placeholder, textarea::placeholder {
     height: 42px;
     box-sizing: border-box;
     padding: 0 0 0 0;
-    margin: 27px -32px 0 -190px;
+    margin: 27px 6px 0 0;
 }
 
 .social-icons-item:nth-child(1) {
@@ -642,3 +642,14 @@ input::placeholder, textarea::placeholder {
     background-image: url("../img/social-icons/social.png");
     background-position: 523px 0;
 }
+
+.copywrite {
+    background-color: #f5f5f5;
+    width: 100%;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    line-height: 2;
+    text-align: center;
+
+}
+
