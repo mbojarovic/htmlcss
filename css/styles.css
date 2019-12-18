@@ -591,15 +591,15 @@ input::placeholder, textarea::placeholder {
 }
 .social-icon-sm:nth-child(2):before {
     background-image: url("../img/social-icons/social-small.png");
-    background-position: 0 -126px;
+    background-position: 0 -136px;
 }
 .social-icon-sm:nth-child(3):before {
     background-image: url("../img/social-icons/social-small.png");
-    background-position: 0 -65px;
+    background-position: 0 -69px;
 }
 .social-icon-sm:nth-child(4):before {
     background-image: url("../img/social-icons/social-small.png");
-    background-position: 0 -192px;
+    background-position: 0 -207px;
 }
 
 .social-icons {
